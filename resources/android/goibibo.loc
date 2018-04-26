@@ -1,0 +1,10 @@
+txt.mobileNum.signInPage = {\"locator\":\"id=onboarding_enter_mob_no_edtTxt\",\"desc\":\"Mobile Number\"}
+btn.continue.signInPage = {\"locator\":\"xpath=//*[@text=\\\"CONTINUE\\\"]\"}
+txt.password.SignInPage = {\"locator\":\"id=signin_pass_password_edtTxt\"}
+btn.signIn.signInPage = {\"locator\":\"id=sign_in_continue\"}
+btn.continue.searchPage = {\"locator\":\"id=button1\"}
+txt.verifySearch.searchPage = {\"locator\":\"id=toolbar_custom_title\"}
+btn.skipConfirm.signInPage = {\"locator\":\"id=button2\"}
+btn.gureviewer.homePage = {\"locator\":\"id=reviewer_initials\"}
+btn.book.homePage = {\"locator\":\"xpath=//*[@text=\\\"Book\\\"]\"}
+btn.me.homePage = {\"locator\":\"xpath=//*[@text=\\\"Me\\\"]\"}
