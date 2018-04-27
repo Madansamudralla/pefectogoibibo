@@ -1,0 +1,11 @@
+
+
+SCENARIO: BusBooking
+META-DATA: {"description":"Busticketbooking","groups":["P1","P2","SMOKE"]}
+	
+	#TODO: call test steps
+	Given i opened the application
+	When Closing the application to restart
+    And User clicking on bus button
+	
+	END
