@@ -1,0 +1,22 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User opened the IOS application",
+      "type": "TestStepPass",
+      "duration": 45773,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

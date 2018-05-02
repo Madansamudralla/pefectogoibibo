@@ -1,0 +1,13 @@
+{
+  "name": "perfecto_assignment_team2.scenarios.BusbookingIOS.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1525258428641,
+  "endTime": 1525258432038
+}

@@ -1,0 +1,63 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User clicking on bus button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 13593,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepFail",
+      "screenshot": "test-results/27_Apr_2018_02_48_PM/img/BusBooking_1bipl4xear61r42921.png",
+      "duration": 1244,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .When Closing the application to restart(scenarios/BusBooking_Goibibo.bdd:8)\r\n\tat com.perfecto.steps.Busbooking.restarttheapp(Busbooking.java:38)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

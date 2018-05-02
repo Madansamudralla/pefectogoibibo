@@ -1,0 +1,39 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When Closing the application to restart",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 13473,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: When Closing the application to restart@scenarios/BusBooking_Goibibo.bdd#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .When Closing the application to restart(scenarios/BusBooking_Goibibo.bdd:8)\r\n"
+}

@@ -1,0 +1,102 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "bustbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Cars'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 2546
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Cars'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 487
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Cars']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 1026
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Cars'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 2827
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Cars']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 658
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 14497,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepPass",
+      "duration": 1909,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStepPass",
+      "duration": 11593,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

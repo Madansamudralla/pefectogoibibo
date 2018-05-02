@@ -1,0 +1,20 @@
+16:55:30 scenario.file.loc[Ljava.lang.String;@530612ba
+16:55:30 loading BDD file: scenarios/BusBooking_Goibibo.bdd
+16:55:30 total test found: 1
+16:55:31 
+
+Executing scenario: BusBooking - Busticketbooking
+16:55:31 pkg: com.qmetry.qaf.automation.step
+16:55:31 pkg: com.perfecto.steps
+16:55:31 Found duplicate step to load [] with [lower] prority then []
+16:55:31 Found duplicate step to load [] with [lower] prority then []
+16:55:31 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="i opened the application")
+public void iOpenedTheApplication(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:55:31 Competed scenario: BusBooking with status FAILURE

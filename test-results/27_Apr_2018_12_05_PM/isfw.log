@@ -1,0 +1,223 @@
+[main] 12:05:10,829 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 12:05:10,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 12:05:10,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 12:05:10,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 12:05:10,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 12:05:11,077 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 12:05:11,099 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\qas_assigment\perfecto_assignment_team2\resources\android. Found property files to load: 1
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 12:05:11,131 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\qas_assigment\perfecto_assignment_team2\resources\android. Found property files to load: 0
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 12:05:11,131 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 12:05:11,146 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:11,485 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 12:05:11,500 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 12:05:11,500 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:11,500 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:11,520 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 12:05:11,522 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:11,523 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:11,527 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 12:05:11,527 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: BusBooking
+[main] 12:05:11,790 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:perfectoRemoteDriver,base_url:http://localhost,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:4444
+[main] 12:05:11,821 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: perfectoRemoteDriver
+[Forwarding newSession on session null to remote] 12:05:12,795 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 12:05:12,808 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 12:05:12,813 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {s}->https://partners.perfectomobile.com:443][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 12:05:12,846 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {s}->https://partners.perfectomobile.com:443][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 12:05:12,848 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {s}->https://partners.perfectomobile.com:443
+[Forwarding newSession on session null to remote] 12:05:12,852 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to partners.perfectomobile.com/198.160.6.129:443
+[Forwarding newSession on session null to remote] 12:05:12,852 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory] Connecting socket to partners.perfectomobile.com/198.160.6.129:443 with timeout 120000
+[Forwarding newSession on session null to remote] 12:05:13,159 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory] Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[Forwarding newSession on session null to remote] 12:05:13,159 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory] Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[Forwarding newSession on session null to remote] 12:05:13,159 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory] Starting handshake
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory] Secure session established
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory]  negotiated protocol: TLSv1.2
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory]  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory]  peer principal: CN=*.perfectomobile.com, O=Perfecto Mobile, L=Woburn, ST=Massachusetts, C=US
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory]  peer alternative names: [*.perfectomobile.com, perfectomobile.com]
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.conn.ssl.SSLConnectionSocketFactory]  issuer principal: CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 10.11.28.146:51143<->198.160.6.129:443
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /nexperience/perfectomobile/wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /nexperience/perfectomobile/wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 454
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: partners.perfectomobile.com
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /nexperience/perfectomobile/wd/hub/session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 454[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: partners.perfectomobile.com[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:13,769 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.goibibo","noReset":true,"appPath":"PUBLIC:perfectoTraining/Goibibo.apk","deviceName":"FA6BS0304695","password":"Demo123","autoLaunch":true,"driverClass":"io.appium.java_client.android.AndroidDriver","automationName":"Appium","takesScreenshot":true,"javascriptEnabled":true,"AutoAcceptAlerts":true,"platformName":"android","user":"is_user1@infostretch.com","cssSelectorsEnabled":true,"applicationName":"Goibibo"}}"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Server: nginx[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Fri, 27 Apr 2018 06:35:22 GMT[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Set-Cookie: JSESSIONID=6F222B1C334932612289C6AD9CC8324D; Path=/nexperience; HttpOnly[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Set-Cookie: fast_failed=true[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-XSS-Protection: 2; mode=block[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "2a0[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xd5]U[o[0xd3]0[0x14][0xfe]/y[0xe0][0xa9][0xb9][0xb8]M[0xb3][0xae][0x12][0x82][0xae][0xc0]41[0xa1]i[0xed][0xc4][0x3]B[0x91]c[0x9f][0xb6][0xa6][0x8e]ml[0xa7][0xdb]4[0xed][0xbf][0xef][0xb8][0xce][0xca][0xd8][0x13][0x82][0x9]iOU[0xe2][0xf8][0xd8][0xdf][0xb5]w[0x89][0x3][0xe7][0x84]Vg<[0x99]&dXM[0xc8][0x90][0xf3][0xb4]:[0x1e][0xad][0xd2][0xf2][0x88][0x96]iS5[0xe3][0x94][0xc3][0x84][0x96][0xcd][0x84][0x90][0xa2][0x18]%[0x83][0xc4]y[0xea]![0x99][0xaa]N[0xca]A[0xb2][0x99]k[0x8e][0xf]d8&G[0xe3]QU[0x96][0x83]dGe[0x87][0xaf][0xee][0x12]j[0xcc][0x5]e[[0xba][0xc6][0xa7][0x84][0xe9]6[k[0xd1][0x88]F[0xe3][0xc][0xb]F[[0xc1]WWV[0xe2][0xe2][0xc6]{[0xe3][0xa6]yn[0xa8][0xf5][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "[0xac][0xcb][0xe2][0xba]P[0xeb][0xcc][0x80]][0x1][0xf3][0xba][0xd5][0x8d][0x90][0x90][0xe1][0x98][0x1c]n[0xc2][0xe6][0x9c][0x1a][0x91][0xef]H[0xee][0xc1][0xf9][0x14]n[0x80]u[0x1e][0x81][0xb8][0xdc][0xf0][0xd5];[0xb8][0xf1]`[0x15][0x95]g[0xfc][[0xf1][0xfd][0xad]pu[0xe7][0xc0][0x92][0xf7]B[0xad][0xb4][0xf3][0x16]<[0xdb][0x84]A[0xf5]%[0xb4][0xda][0xc3]Wh>X[0xb1][0x3][[0x93]IZ[0x94][0xe9][0xf0][0xa8].[0xaa]z4[0xae][0x9][0xa9][0x87]#[0xc4][0xfc][0xa6][0xf6][0xa2][0xc5]Shk[0xc2]82[0x1e][0x96][0x13]R[0x1c][0x93][0xc0][0x17]bQ[0xfa][0x12][0x1c][0xf8]d[0xea]m[0x7][0x83][0x88][0xda]o[0x10][0xd5][0xc5][0xd5][0xc9][0xf9][0xd9]|[0xfa][0x88]`i[0xa9]P[0x8])?[0x8d]4d[0xd4]lq;[0x87][0x9d]`[0xf0][0x85][0xb6][0x81][0xa5]O[0xb3][0xea]dQ[0x8c][0x8a][0xb2]:[0x1e][0xe3][0x9a][0xa1][0xce]]k[0x1b][0xc4]9|[0xb9]x[0xa2][0xd8][0xbf]"[0xb]C[0xf7][0xd0][0xe7][0x12]O[0xc2]S[0x84][0xc6][[0x19][0xd1][0xb5][0xd9][0xf][0xba][0xa3]5[0x93][0x2][0x94][0xcf][0xa8][0xe2]V[0xb][0x9e][0xcd][0xe2]od[0xb][0xf7][0xd2][0xe]u[0xa1][0x81][0xf6][0xfe][0xfa][0xb3][0xfd]^\[0xd9] [0xcf]8[0xee][0xa0][0xe7]#[0x7][0xbf]T[0xc4][0x8f][0x1c][0x92]!a[0x89][0xcc]^[0xee][0xed][0xf0][0x17]^[0xf8][0xbf]J{[0xba][0x5][0xb7]`[0x16]@[0xb9][0x8d]>([0x1e][0xa8]r[0xcc][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "[0xe3]?*[0xda]H@[0xb9][0xa2][0x15]f[0xc8][0xcf][0x8c]10~&[0xc1]z$8[0xbe]7[0x92][0xfa][0x95][0xb6]m[0xcf]ZOo [0xd4][0x18])[0xd8]SF{[0xaf][0xe0][0x9a][0xd5][0x98][0xbb]0[0xfe]qJ0[0xfe][0xa9][0x15][0xfc][0x95][0x90][0x87]F[0x12][0xfe]vyk[0x82][0xcf][0xa3][0xc9][0xea]h[0xbe]`[0x5][0xb0][0x18][0xc0][0xb9]V*d[0xdd]F[0xbf];[0xcc][0xb4][\r]{[0xf4][0x16]T|u[0xc8][0xf9][0xbe][0xb0]^[0xc0][0xfe][0xd7][0xd0][0xc4]K`[0xe5][0x84]2[0xc8][0xfa]B[0x14]!sX[0x88]![0x6][0xe7][0xb4]S[0xc]C[0x1f][0x5][0x96]:[0x8a][0x88][0x80]<v[0xd1]3[D[0xaf][0xf4][0xe2]?[0xeb][0xa0] [0xf4]>[0xc][0x9f][0xe1][0x16]o[0xf0][0x12][0x8][0x85][0xe2][0xcb][0xe][0x89][0x95][0xaf][0xc4]([0xa1][0xab][0xa3][0xda][0xcc][0xb9][0x5][0xc8][0xbd]#[0xdc]o[0x1c][0xde][0xf][0x12][0xd6]7[0x96][0xb6][0xeb]L[0x1b]P?)J'A[0x85][0xee][0xea][0xa5][0xc4]Z6[0xf8][0x8f][0x0][0xc1]_[0x98][0x9d][0xe][0xf3]W[0xdc]?[0x0][0x93]N[0x9][0xc4][0xf3][0x6][0x0][0x0][\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "0[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Server: nginx
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Fri, 27 Apr 2018 06:35:22 GMT
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json;charset=utf-8
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Transfer-Encoding: chunked
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Cache-Control: no-cache
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Set-Cookie: JSESSIONID=6F222B1C334932612289C6AD9CC8324D; Path=/nexperience; HttpOnly
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Set-Cookie: fast_failed=true
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << X-XSS-Protection: 2; mode=block
+[Forwarding newSession on session null to remote] 12:05:25,540 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Encoding: gzip
+[Forwarding newSession on session null to remote] 12:05:25,555 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 12:05:25,555 DEBUG [org.apache.http.client.protocol.ResponseProcessCookies] Cookie accepted [JSESSIONID="6F222B1C334932612289C6AD9CC8324D", version:0, domain:partners.perfectomobile.com, path:/nexperience, expiry:null]
+[Forwarding newSession on session null to remote] 12:05:25,555 DEBUG [org.apache.http.client.protocol.ResponseProcessCookies] Cookie accepted [fast_failed="true", version:0, domain:partners.perfectomobile.com, path:/nexperience/perfectomobile/wd/hub, expiry:null]
+[Forwarding newSession on session null to remote] 12:05:25,571 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {s}->https://partners.perfectomobile.com:443] can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 12:05:25,571 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {s}->https://partners.perfectomobile.com:443][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 12:05:25,588 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: BusBooking - com.qmetry.qaf.automation.step.client is test:true
+[main] 12:05:25,588 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:25,605 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=Busticketbooking, groups=[Ljava.lang.String;@5e01a982, lineNo=3, name=BusBooking, referece=scenarios/BusBooking_Goibibo.bdd, sign=scenarios.BusBooking_Goibibo.bdd.BusBooking()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]}
+[main] 12:05:25,610 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 12:05:25,612 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:25,612 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:25,612 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 12:05:25,612 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:25,612 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:25,617 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 12:05:25,625 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing quit parameters: {}
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,628 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,628 DEBUG [org.apache.http.client.protocol.RequestAddCookies] Cookie [version: 0][name: JSESSIONID][value: 6F222B1C334932612289C6AD9CC8324D][domain: partners.perfectomobile.com][path: /nexperience][expiry: null] match [(secure)partners.perfectomobile.com:443/nexperience/perfectomobile/wd/hub/session/126812dd-693f-47a4-b6b5-de8a4b811003]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,629 DEBUG [org.apache.http.client.protocol.RequestAddCookies] Cookie [version: 0][name: fast_failed][value: true][domain: partners.perfectomobile.com][path: /nexperience/perfectomobile/wd/hub][expiry: null] match [(secure)partners.perfectomobile.com:443/nexperience/perfectomobile/wd/hub/session/126812dd-693f-47a4-b6b5-de8a4b811003]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,630 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,630 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {s}->https://partners.perfectomobile.com:443][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,631 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {s}->https://partners.perfectomobile.com:443][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,631 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request DELETE /nexperience/perfectomobile/wd/hub/session/126812dd-693f-47a4-b6b5-de8a4b811003 HTTP/1.1
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.headers] http-outgoing-0 >> DELETE /nexperience/perfectomobile/wd/hub/session/126812dd-693f-47a4-b6b5-de8a4b811003 HTTP/1.1
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,633 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: partners.perfectomobile.com
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.headers] http-outgoing-0 >> Cookie: JSESSIONID=6F222B1C334932612289C6AD9CC8324D; fast_failed=true
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "DELETE /nexperience/perfectomobile/wd/hub/session/126812dd-693f-47a4-b6b5-de8a4b811003 HTTP/1.1[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: partners.perfectomobile.com[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_161)[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Cookie: JSESSIONID=6F222B1C334932612289C6AD9CC8324D; fast_failed=true[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:25,634 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Server: nginx[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Fri, 27 Apr 2018 06:35:44 GMT[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Set-Cookie: JSESSIONID=6F222B1C334932612289C6AD9CC8324D; Path=/nexperience/; HttpOnly[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Set-Cookie: fast_failed=true[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-XSS-Protection: 2; mode=block[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "97[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]-[0xcc]1[0x12][0xc2] [0x10][0x85][0xe1][0xbb]l[\r][0xc][0x4]$$[0xad][0x95][0xad]7 a[0xd5][0xcc][0x10]H[0xb2][0xc1][0xc6][0xf1][0xee]na[0xfb][0xcf][0xf7][0xde][0x7][0x8][0x89][0x96]Zn[0x9]F0[0x9d][0xf][0xa6]KI[0xfa][0xc1]>[0xa4][0xeb][0xa3][0x93][0x93][0x9f].2a[0x88]n[\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "[0xc6]hmA[0x0][0x9d][0xf1]D[0xe6][0xd4][0xe6][0x99][0xd7]\^[0xd7][0x9a][0xb8][0x18][0xd7][0xfb]>Xm[0x7][0x1][0xef][0x98][0x1b][0xa7][0xd2]r[0x16]0[0xe7][0xc8]n[0x84]z<U[0xdd][0xb0][0xec]Q[0x11]f,K[[0xd5][0x81]k=Q[0xdd][0x91][0xb6]Z[0x8][0xff][0xff][0x8d][0xb9][0xfe][0xfe][0x0][0x8][0xd9][0xaf][0xf2][0x9f][0x0][0x0][0x0][\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "0[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Server: nginx
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Fri, 27 Apr 2018 06:35:44 GMT
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json;charset=utf-8
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Transfer-Encoding: chunked
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Set-Cookie: JSESSIONID=6F222B1C334932612289C6AD9CC8324D; Path=/nexperience/; HttpOnly
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Cache-Control: no-cache
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Set-Cookie: fast_failed=true
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << X-XSS-Protection: 2; mode=block
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Encoding: gzip
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.client.protocol.ResponseProcessCookies] Cookie accepted [JSESSIONID="6F222B1C334932612289C6AD9CC8324D", version:0, domain:partners.perfectomobile.com, path:/nexperience/, expiry:null]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.client.protocol.ResponseProcessCookies] Cookie accepted [fast_failed="true", version:0, domain:partners.perfectomobile.com, path:/nexperience/perfectomobile/wd/hub/session, expiry:null]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {s}->https://partners.perfectomobile.com:443] can be kept alive indefinitely
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {s}->https://partners.perfectomobile.com:443][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Closing connections idle longer than 0 SECONDS
+[Forwarding quit on session 126812dd-693f-47a4-b6b5-de8a4b811003 to remote] 12:05:46,780 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[main] 12:05:46,780 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: quit[ param-1: {}] Result: null
+[main] 12:05:46,780 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] UI-driver tear down complete...
+[main] 12:05:46,791 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:46,791 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:46,809 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 12:05:46,818 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 12:05:46,818 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 12:05:46,818 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:05:46,818 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 12:05:46,818 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done

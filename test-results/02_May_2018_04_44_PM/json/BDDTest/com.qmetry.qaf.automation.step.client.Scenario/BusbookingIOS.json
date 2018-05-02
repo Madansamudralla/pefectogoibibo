@@ -1,0 +1,39 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When User IOS click on bus btn",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User opened the IOS application",
+      "type": "TestStepPass",
+      "duration": 40349,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User IOS click on bus btn :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: When User IOS click on bus btn@scenarios/BusbookingIOS.bdd#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .When User IOS click on bus btn(scenarios/BusbookingIOS.bdd:8)\r\n"
+}

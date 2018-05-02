@@ -1,0 +1,22 @@
+16:44:49 scenario.file.loc[Ljava.lang.String;@530612ba
+16:44:49 loading BDD file: scenarios/BusbookingIOS.bdd
+16:44:49 total test found: 1
+16:44:49 
+
+Executing scenario: BusbookingIOS - BusbookingforIOS
+16:44:49 pkg: com.qmetry.qaf.automation.step
+16:44:49 pkg: com.perfecto.steps
+16:44:49 Found duplicate step to load [] with [lower] prority then []
+16:44:49 Found duplicate step to load [] with [lower] prority then []
+16:44:49 Invoking Teststep: Given User opened the IOS application
+16:45:30 Completed Teststep: Given User opened the IOS application
+16:45:30 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="User IOS click on bus btn")
+public void userIOSClickOnBusBtn(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:45:30 Competed scenario: BusbookingIOS with status FAILURE

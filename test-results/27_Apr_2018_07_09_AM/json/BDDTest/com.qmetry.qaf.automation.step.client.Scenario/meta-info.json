@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Busticketbooking",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3.0,
+        "name": "BusBooking",
+        "referece": "scenarios/BusBooking_Goibibo.bdd",
+        "sign": "scenarios.BusBooking_Goibibo.bdd.BusBooking()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1524812984654,
+      "duration": 13682,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Sample Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "SampleTest",
+        "referece": "scenarios/carBookingGoibibo.bdd",
+        "sign": "scenarios.carBookingGoibibo.bdd.SampleTest()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1524812998352,
+      "duration": 30787,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

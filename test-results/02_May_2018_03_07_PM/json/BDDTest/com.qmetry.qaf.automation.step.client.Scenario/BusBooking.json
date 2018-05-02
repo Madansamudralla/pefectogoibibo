@@ -1,0 +1,824 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "bustbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 4854
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 626
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 1109
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1101
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1057
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincityclicks",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 976
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_origin')]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 669
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincitySend",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 1194
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 485
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 421
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 711
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 878
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"7\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 3956
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 905
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 822
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "originselectclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 811
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 428
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Hyderabad, Telangana']",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 405
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 413
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Hyderabad, Telangana']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 618
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationcityclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "[id: 12]",
+          "subLogs": [],
+          "duration": 1130
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 799
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_dest')]",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 888
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 406
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_dest')]",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 630
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationcityenter",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 15]",
+          "subLogs": [],
+          "duration": 1168
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 846
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 914
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 565
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 563
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 879
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"18\",\"value\":[\"Pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 3981
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Pune, Maharashtra'], using=xpath}"
+          ],
+          "result": "id: 19",
+          "subLogs": [],
+          "duration": 729
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Pune, Maharashtra']",
+            "{\"id\":\"19\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 758
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "calendarbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'textBusOnwDay_cur')], using=xpath}"
+          ],
+          "result": "id: 20",
+          "subLogs": [],
+          "duration": 976
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'textBusOnwDay_cur')]",
+            "{\"id\":\"20\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 824
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='31'], using=xpath}"
+          ],
+          "result": "id: 21",
+          "subLogs": [],
+          "duration": 3115
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='31']",
+            "{\"id\":\"21\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1039
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "bussearchbtn",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "[id: 22]",
+          "subLogs": [],
+          "duration": 1191
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "id: 23",
+          "subLogs": [],
+          "duration": 617
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Get Set Go']",
+            "{\"id\":\"23\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 1018
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "id: 24",
+          "subLogs": [],
+          "duration": 519
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Get Set Go']",
+            "{\"id\":\"24\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 654
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "buslistokbtn",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 916 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 931
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 499 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 499
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 428 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 428
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 401 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 402
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 416 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 416
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 502 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 502
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 425 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 425
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 408 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 408
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 496 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 496
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 410 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 410
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 403 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 404
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 417 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 411 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 412
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 515 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 414 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 426 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 427
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 418 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 431 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 432
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 397 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 398
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 425 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 426
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 411 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 411
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='OK'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 423 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}",
+          "subLogs": [],
+          "duration": 423
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='OK']",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text='OK']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": 540569254
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 15511,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepPass",
+      "duration": 5493,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStepPass",
+      "duration": 12780,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on origin city",
+      "type": "TestStepPass",
+      "duration": 1658,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter origin city",
+      "type": "TestStepPass",
+      "duration": 9807,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User slelecting the origin city",
+      "type": "TestStepPass",
+      "duration": 2683,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on the destination btn",
+      "type": "TestStepPass",
+      "duration": 3861,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User entering destination city",
+      "type": "TestStepPass",
+      "duration": 10415,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then User clicks on calendar btn",
+      "type": "TestStepPass",
+      "duration": 5959,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicks buses search btn",
+      "type": "TestStepPass",
+      "duration": 9005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicks on buses list ok btn",
+      "type": "TestStepFail",
+      "screenshot": "test-results/02_May_2018_03_07_PM/img/BusBooking_10g2mz8lj7rrk49017.png",
+      "duration": 31135,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text='OK']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //*[@text='OK']\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat .And User clicks on buses list ok btn(scenarios/BusBooking_Goibibo.bdd:17)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.perfecto.steps.Busbooking.buslistokbtn(Busbooking.java:183)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 423 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, webdriver.remote.sessionid=49bcf383-5c22-472d-b503-3709f90ebd94, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_09_37_30_4648&_timestamp[0]=1525253850824, user=, cssSelectorsEnabled=true}]\nSession ID: 49bcf383-5c22-472d-b503-3709f90ebd94\n*** Element info: {Using=xpath, value=//*[@text='OK']}\r\n\tat sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:398)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.perfecto.steps.Busbooking.buslistokbtn(Busbooking.java:183)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//*[@text='OK']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: '0ff493271f4e', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_131'\nDriver info: driver.version: EventFiringWebDriver\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: EventFiringWebDriver\r\n\tat com.perfectomobile.selenium.MobileApplication.getSingleElement(MobileApplication.java:337)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElementByXPath(MobileApplication.java:193)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElement(MobileApplication.java:132)\r\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.findElement(PerfectoMobileDriver.java:825)\r\n\tat sun.reflect.GeneratedMethodAccessor1550.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)\r\n\tat com.sun.proxy.$Proxy285.findElement(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)\r\n\tat org.openqa.selenium.remote.server.handler.WebDriverHandler.handle(WebDriverHandler.java:41)\r\n\tat org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:112)\r\n\tat org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:192)\r\n\tat org.openqa.selenium.remote.server.MobileDriverServlet.lambda$handleRequest$0(MobileDriverServlet.java:465)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "perfecto_assignment_team2.scenarios.BusBooking_Goibibo.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1525260015460,
+  "endTime": 1525260016152
+}

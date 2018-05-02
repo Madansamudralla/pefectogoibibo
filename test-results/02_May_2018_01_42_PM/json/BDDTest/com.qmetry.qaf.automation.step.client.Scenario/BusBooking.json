@@ -1,0 +1,249 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "bustbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3807
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 1453
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 595
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 631
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 618
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1119
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincityclicks",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 856
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_origin')]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 887
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincitySend",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 1434
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 668
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 430
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 428
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 543
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 911
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"7\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2476
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 1062
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 795
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 15426,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepPass",
+      "duration": 3394,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStepPass",
+      "duration": 13249,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on origin city",
+      "type": "TestStepPass",
+      "duration": 1766,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter origin city",
+      "type": "TestStepPass",
+      "duration": 8766,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

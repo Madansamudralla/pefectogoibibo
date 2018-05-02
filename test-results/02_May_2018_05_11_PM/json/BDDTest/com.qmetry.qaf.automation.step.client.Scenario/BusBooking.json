@@ -1,0 +1,294 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "bustbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1982
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1227
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 6068
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 828
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1141
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 738
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1241
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 850
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1145
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 832
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1137
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 846
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1231
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And User click on origin city",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User enter origin city",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User slelecting the origin city",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User clicking on the destination btn",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User entering destination city",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then User clicks on calendar btn",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User clicks buses search btn",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 44207,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepPass",
+      "duration": 12144,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStepFail",
+      "screenshot": "test-results/02_May_2018_05_11_PM/img/BusBooking_homwb37t9a405510.png",
+      "duration": 31292,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait time out for clicking on bus text to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And User click on origin city",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter origin city",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User slelecting the origin city",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on the destination btn",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User entering destination city",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then User clicks on calendar btn",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicks buses search btn",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for clicking on bus text to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown\r\n\tat .And User clicking on bus button(scenarios/BusBooking_Goibibo.bdd:9)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)\r\n\tat com.perfecto.steps.Busbooking.bustbtnclick(Busbooking.java:81)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

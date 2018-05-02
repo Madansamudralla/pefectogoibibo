@@ -1,0 +1,83 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.goibibo",
+      "noReset": true,
+      "appPath": "PUBLIC:perfectoTraining/Goibibo.apk",
+      "deviceName": "FA6BS0304695",
+      "password": "Demo123",
+      "autoLaunch": true,
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "AutoAcceptAlerts": true,
+      "platformName": "android",
+      "user": "is_user1@infostretch.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Goibibo"
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.goibibo",
+      "reportPdfUrl": "https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088&_timestamp[0]=1524824525252",
+      "noReset": "true",
+      "appPath": "PUBLIC:perfectoTraining/Goibibo.apk",
+      "deviceName": "FA6BS0304695",
+      "platform": "ANY",
+      "password": "",
+      "deviceSessionId": "is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "host": "partners.perfectomobile.com",
+      "singleTestReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088&_timestamp[0]=1524824525252",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "AutoAcceptAlerts": "true",
+      "platformName": "android",
+      "applicationName": "Goibibo",
+      "rotatable": "true",
+      "testGridReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088&_timestamp[0]=1524824525252",
+      "entityType": "appium_driver",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088",
+      "webdriver.remote.sessionid": "8fdfbc3f-10af-4f89-bdaa-e30f156ede53",
+      "autoLaunch": "true",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "reportKey": "is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088",
+      "windTunnelReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-04-27_10_22_05_24088&_timestamp[0]=1524824525252",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources/android",
+      "scenario.file.loc": "scenarios/BusBooking_Goibibo.bdd"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_161",
+      "os.arch": "amd64",
+      "host": "ICPL12782",
+      "os.name": "Windows 10",
+      "user.name": "Madan.Samudralla",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1524824574271,
+  "endTime": 1524824582090
+}

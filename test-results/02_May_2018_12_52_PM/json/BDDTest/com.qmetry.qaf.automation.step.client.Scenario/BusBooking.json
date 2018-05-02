@@ -1,0 +1,354 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "bustbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1595
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 2891
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 737
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 617
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 806
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 680
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincityclicks",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1037
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_origin')]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 588
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincitySend",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 1.94 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 1958
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 455 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 455
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 371 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 371
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 473 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 474
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 460 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 462
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 427 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 431
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 473 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 473
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 544 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 544
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 373 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 379
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 417 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 413 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 501 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 501
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 615 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 615
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 412 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 413
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 405 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 406
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 533 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 536
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 501 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 502
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 398 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 400
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 498 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 499
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=xpath=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: findElements command failed. Reason: handset server: cannot evaluate xpath expression\nCommand duration or timeout: 541 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=632E9899, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, webdriver.remote.sessionid=28b534cc-f298-4235-b9f9-b4367d8c1512, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-02_07_22_28_4132&_timestamp[0]=1525245748471, user=, cssSelectorsEnabled=true}]\nSession ID: 28b534cc-f298-4235-b9f9-b4367d8c1512\n*** Element info: {Using=xpath, value=xpath=//*[contains(@resource-id, 'search_edit')]}",
+          "subLogs": [],
+          "duration": 541
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 18424,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepPass",
+      "duration": 2979,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStepPass",
+      "duration": 12368,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on origin city",
+      "type": "TestStepPass",
+      "duration": 1632,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter origin city",
+      "type": "TestStepFail",
+      "screenshot": "test-results/02_May_2018_12_52_PM/img/BusBooking_1v0kff20y1jyu2232.png",
+      "duration": 30136,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait time out for User enters the origin city to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for User enters the origin city to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown\r\n\tat .And User enter origin city(scenarios/BusBooking_Goibibo.bdd:11)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)\r\n\tat com.perfecto.steps.Busbooking.origincitySend(Busbooking.java:95)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

@@ -1,0 +1,21 @@
+12:25:30 scenario.file.loc[Ljava.lang.String;@3d8314f0
+12:25:30 loading BDD file: scenarios/BusBooking_Goibibo.bdd
+12:25:30 total test found: 1
+12:25:31 
+
+Executing scenario: BusBooking - Busticketbooking
+12:25:31 pkg: com.qmetry.qaf.automation.step
+12:25:31 pkg: com.perfecto.steps
+12:25:31 Found duplicate step to load [] with [lower] prority then []
+12:25:31 Invoking Teststep: Given i opened the application
+12:25:45 Completed Teststep: Given i opened the application
+12:25:45 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="Closing the ap	plication to restart")
+public void closingTheApPlicationToRestart(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+12:25:45 Competed scenario: BusBooking with status FAILURE

@@ -1,0 +1,460 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenedTheApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "restarttheapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "bustbtnclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1902
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 3095
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 618
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 818
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1002
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1086
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincityclicks",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1137
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_origin')]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 571
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "origincitySend",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 1243
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 864
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 464
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 408
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 558
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 1383
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"7\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 3999
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 636
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 856
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "originselectclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 767
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 708
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Hyderabad, Telangana']",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 398
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Hyderabad, Telangana']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 684
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationcityclick",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "[id: 12]",
+          "subLogs": [],
+          "duration": 870
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 890
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_dest')]",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 983
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 506
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_dest')]",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 659
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "destinationcityenter",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 15]",
+          "subLogs": [],
+          "duration": 1250
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 505
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 412
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 416
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 506
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 819
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"18\",\"value\":[\"Pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2775
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i opened the application",
+      "type": "TestStepPass",
+      "duration": 14363,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Closing the application to restart",
+      "type": "TestStepPass",
+      "duration": 4489,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on bus button",
+      "type": "TestStepPass",
+      "duration": 13558,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User click on origin city",
+      "type": "TestStepPass",
+      "duration": 1733,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User enter origin city",
+      "type": "TestStepPass",
+      "duration": 10456,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User slelecting the origin city",
+      "type": "TestStepPass",
+      "duration": 2987,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User clicking on the destination btn",
+      "type": "TestStepPass",
+      "duration": 3925,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User entering destination city",
+      "type": "TestStepPass",
+      "duration": 6700,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
