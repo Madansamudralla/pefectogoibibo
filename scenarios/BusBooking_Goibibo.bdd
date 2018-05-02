@@ -7,5 +7,14 @@ META-DATA: {"description":"Busticketbooking","groups":["P1","P2","SMOKE"]}
 	Given i opened the application
 	When Closing the application to restart
     And User clicking on bus button
-	
+    And User click on origin city
+    And User enter origin city
+    And User slelecting the origin city
+    And User clicking on the destination btn
+    And User entering destination city
+    Then User clicks on calendar btn
+    And User clicks buses search btn
+    # And User clicks on buses list ok btn
+    
+    	
 	END

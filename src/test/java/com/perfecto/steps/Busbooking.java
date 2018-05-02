@@ -21,8 +21,39 @@ import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
  */
 public class Busbooking extends WebDriverBaseTestPage<WebDriverTestPage>{
 	@FindBy(locator = "Bustext.click")
-	private QAFWebElement busimageClick;
+	private QAFWebElement BustextClick;
+	
+	@FindBy(locator= "Gotit.click")
+	private QAFWebElement GotitClick;
+	
 
+	@FindBy(locator="origincity.click")
+	private QAFWebElement origincityClick;
+	
+
+	@FindBy(locator="origincity.send")
+	private QAFWebElement origincitySend;
+	
+	@FindBy(locator="originselect.click")
+	private QAFWebElement originselectClick;
+	
+	@FindBy(locator="destination.click")
+	private QAFWebElement destinationClick;
+	
+	@FindBy(locator="destinationselecting.click")
+	private QAFWebElement destinationselectingClick;
+	
+	@FindBy(locator="calendar.click")
+	private QAFWebElement calendarClick;
+	
+	@FindBy(locator="calendardatepick.click")
+	private QAFWebElement calendardatepickClick;
+	
+	@FindBy(locator="bussearchbtn.click")
+	private QAFWebElement bussearchbtnClick;
+	
+	@FindBy(locator="buslistok.click")
+	private QAFWebElement buslistokClick;
 	
 	@QAFTestStep(description = "i opened the application")
 	public void iOpenedTheApplication() {
@@ -42,13 +73,13 @@ public class Busbooking extends WebDriverBaseTestPage<WebDriverTestPage>{
 		//CommonStep.click("Bustext.click");
 	}
 
-	public QAFWebElement getBusimageClick() {
-		return busimageClick;
+	public QAFWebElement getBustextClick() {
+		return BustextClick;
 	}
 	@QAFTestStep(description= "User clicking on bus button")
 	public void bustbtnclick() {
-		busimageClick.waitForVisible();
-		busimageClick.click();	
+		BustextClick.waitForVisible();
+		BustextClick.click();	
 		QAFTestBase.pause(4000);
 	}
 
@@ -58,5 +89,98 @@ public class Busbooking extends WebDriverBaseTestPage<WebDriverTestPage>{
 		
 	}
 	
-
+	public QAFWebElement getGotitClick() {
+		return GotitClick;
+	}
+	
+	@QAFTestStep(description= "User clicking on GOT IT btn")
+	public void GotitClick() {
+		GotitClick.waitForVisible();
+		GotitClick.click();
+	
+	}
+	
+	public QAFWebElement getorigincityClick() {
+		return origincityClick;
+	}
+	@QAFTestStep(description="User click on origin city")
+	public void origincityclicks() {
+		origincityClick.click();
+	}
+	
+	public QAFWebElement getorigincitySend() {
+		return origincitySend;
+	}
+	@QAFTestStep(description="User enter origin city")
+	public void origincitySend() {
+		origincitySend.waitForVisible();
+		origincitySend.click();
+		origincitySend.sendKeys("Hyderabad");
+		origincitySend.click();
+	}
+	
+	public QAFWebElement getoriginselectClick() {
+		return originselectClick;
+	}
+	
+	@QAFTestStep(description="User slelecting the origin city")
+	public void originselectclick() {
+		originselectClick.waitForVisible();
+		originselectClick.click();
+	}
+	public QAFWebElement getdestinationClick() {
+		return destinationClick;
+	}
+	
+	@QAFTestStep(description="User clicking on the destination btn")
+	public void destinationcityclick() {
+		destinationClick.waitForVisible();
+		destinationClick.click();
+		}
+	@QAFTestStep(description="User entering destination city")
+	public void destinationcityenter() {
+		origincitySend.waitForVisible();
+		origincitySend.click();
+		origincitySend.sendKeys("Pune");
+		destinationselectingClick.click();
+	
+		}
+	
+	public QAFWebElement getdestinationselectingClick() {
+		return destinationselectingClick;
+	}
+	
+	public QAFWebElement getcalendarClick() {
+		return calendarClick;
+	}
+	
+	@QAFTestStep(description="User clicks on calendar btn")
+	public void calendarbtnclick() {
+		calendarClick.click();
+		calendardatepickClick.click();
+	}
+	
+	public QAFWebElement getcalendardatepickClick() {
+		return calendardatepickClick;
+	}
+	
+	public QAFWebElement getbussearchbtnClick() {
+		return bussearchbtnClick;
+	}
+	
+	@QAFTestStep(description="User clicks buses search btn")
+	public void bussearchbtn() {
+		bussearchbtnClick.waitForVisible();
+		bussearchbtnClick.click();
+		QAFTestBase.pause(5000);
+	}
+	
+	public QAFWebElement getbuslistokClick() {
+		return buslistokClick;
+	}
+	
+	@QAFTestStep(description="User clicks on buses list ok btn")
+	public void buslistokbtn() {
+		buslistokClick.click();
+	}
 }

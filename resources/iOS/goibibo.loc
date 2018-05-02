@@ -1,0 +1,12 @@
+Bustext.click = {\"locator\":\"xpath=//*[@text='Bus']\",\"desc\":\"clicking on bus text\"}
+origin.click = {\"locator\":\"xpath=//device/view/group[1]/group[1]/group[1]/group[1]/group[1]/group[1]/group[1]/viewpager[1]/scrollview[1]/group[1]/group[1]/group[1]/group[1]/group[1]/text[1]\",\"desc\":\"origin city\"}
+origincity.send = {\"locator\":\"xpath=//*[contains(@resource-id, 'search_edit')]\",\"desc\":\"User enters the origin city\"}
+origincity.click = {\"locator\":\"xpath=//*[@name=\\\"fromButton\\\"]\",\"desc\":\"userclick on origin city\"}
+originselect.click = {\"locator\":\"xpath=//*[@text='Hyderabad, Telangana']\",\"desc\":\"user selecting the origin\"}
+destination.click = {\"locator\":\"xpath=//*[contains(@resource-id, 'bus_dest')]\",\"desc\":\"User click on destination city\"}
+destinationcity.send = {\"locator\":\"xpath=//*[contains(@resource-id, 'search_edit')]\",\"desc\":\"User entering destination city\"}
+destinationselecting.click = {\"locator\":\"xpath=//*[@text='Pune, Maharashtra']\",\"desc\":\"User selecting the destination\"}
+calendar.click = {\"locator\":\"xpath=//*[contains(@resource-id, 'textBusOnwDay_cur')]\",\"desc\":\"User clicking on calendar button\"}
+calendardatepick.click = {\"locator\":\"xpath=//*[@text='31']\",\"desc\":\"User selecting the date pick\"}
+bussearchbtn.click = {\"locator\":\"xpath=//*[@text='Get Set Go']\",\"desc\":\"User click on search bus btn\"}
+buslistok.click = {\"locator\":\"xpath=//*[@text='OK']\",\"desc\":\"User click on OK button\"}
