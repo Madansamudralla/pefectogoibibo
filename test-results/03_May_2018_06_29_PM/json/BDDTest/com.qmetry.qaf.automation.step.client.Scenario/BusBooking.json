@@ -1,0 +1,567 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchgoibiboapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "busselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "[id: 4CE959E7-6911-4C68-AFB2-CFE26066656B]",
+          "subLogs": [],
+          "duration": 2817
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "id: EFB75C02-8409-4601-B68D-C897095639A4",
+          "subLogs": [],
+          "duration": 1703
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Bus\"]",
+            "{\"id\":\"EFB75C02-8409-4601-B68D-C897095639A4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "id: 3A3F32F0-EA03-40E4-A1D2-9C22AAB06D58",
+          "subLogs": [],
+          "duration": 1526
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Bus\"]",
+            "{\"id\":\"3A3F32F0-EA03-40E4-A1D2-9C22AAB06D58\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 928
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "busticketbooking",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name=\"fromButton\"], using=xpath}"
+          ],
+          "result": "[id: DDA27555-32E1-4F33-ADC5-08DDDD888AE4]",
+          "subLogs": [],
+          "duration": 842
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"fromButton\"], using=xpath}"
+          ],
+          "result": "id: B3ABF82D-6E75-4868-B464-411C995E2D96",
+          "subLogs": [],
+          "duration": 805
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@name=\"fromButton\"]",
+            "{\"id\":\"B3ABF82D-6E75-4868-B464-411C995E2D96\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 446
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"fromButton\"], using=xpath}"
+          ],
+          "result": "id: 06F149B8-1C86-4E2B-ADDE-1C7DFF9B044B",
+          "subLogs": [],
+          "duration": 916
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@name=\"fromButton\"]",
+            "{\"id\":\"06F149B8-1C86-4E2B-ADDE-1C7DFF9B044B\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 722
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "[id: D46E1932-4BB4-4969-8242-EEC9612AA0DB]",
+          "subLogs": [],
+          "duration": 1325
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 7585FDFF-E1A5-4ADE-9689-F293BE211F09",
+          "subLogs": [],
+          "duration": 1028
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"7585FDFF-E1A5-4ADE-9689-F293BE211F09\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: C40238D8-CEB9-4AA6-946A-93ED01F2B7E9",
+          "subLogs": [],
+          "duration": 1138
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"C40238D8-CEB9-4AA6-946A-93ED01F2B7E9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 847
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 6062949D-6D8E-40E6-B3B6-3F393825F764",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"6062949D-6D8E-40E6-B3B6-3F393825F764\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 818
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Hyderabad, Telangana\"], using=xpath}"
+          ],
+          "result": "[id: 594891F2-6954-43AD-92F2-68BE1AB9584C]",
+          "subLogs": [],
+          "duration": 1023
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Hyderabad, Telangana\"], using=xpath}"
+          ],
+          "result": "id: 62514E94-4CEE-42C6-8AB9-8A8E967D8B1C",
+          "subLogs": [],
+          "duration": 938
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Hyderabad, Telangana\"]",
+            "{\"id\":\"62514E94-4CEE-42C6-8AB9-8A8E967D8B1C\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 415
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Hyderabad, Telangana\"], using=xpath}"
+          ],
+          "result": "id: 3A038A54-1127-462D-8733-2A07BF5F2455",
+          "subLogs": [],
+          "duration": 1124
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Hyderabad, Telangana\"]",
+            "{\"id\":\"3A038A54-1127-462D-8733-2A07BF5F2455\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 814
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name=\"toButton\"], using=xpath}"
+          ],
+          "result": "[id: 4CBF59F3-D818-4118-B012-6DE4AAE60627]",
+          "subLogs": [],
+          "duration": 1118
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"toButton\"], using=xpath}"
+          ],
+          "result": "id: F02A2243-BEC4-4879-B4C1-B0A74590C09E",
+          "subLogs": [],
+          "duration": 821
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@name=\"toButton\"]",
+            "{\"id\":\"F02A2243-BEC4-4879-B4C1-B0A74590C09E\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 427
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"toButton\"], using=xpath}"
+          ],
+          "result": "id: 6F63795C-77C4-4D41-B185-B0C90769B037",
+          "subLogs": [],
+          "duration": 927
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@name=\"toButton\"]",
+            "{\"id\":\"6F63795C-77C4-4D41-B185-B0C90769B037\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 716
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "[id: CC3D84CA-40CB-417B-BF46-6E5E5FAFD140]",
+          "subLogs": [],
+          "duration": 1336
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: D03CAFC0-258B-450B-B026-5DA05378BB4D",
+          "subLogs": [],
+          "duration": 1024
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"D03CAFC0-258B-450B-B026-5DA05378BB4D\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 429
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 71D719E9-7E45-4340-BC67-8ADF8A0B3ECB",
+          "subLogs": [],
+          "duration": 1134
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"71D719E9-7E45-4340-BC67-8ADF8A0B3ECB\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 829
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: FE87B4A0-17B6-40DD-8407-9BD183309B3F",
+          "subLogs": [],
+          "duration": 1410
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"FE87B4A0-17B6-40DD-8407-9BD183309B3F\",\"value\":[\"Pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 715
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Pune, Maharashtra\"], using=xpath}"
+          ],
+          "result": "[id: 3466193A-EDF2-4CCD-85F5-64A6AA91938E]",
+          "subLogs": [],
+          "duration": 1037
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Pune, Maharashtra\"], using=xpath}"
+          ],
+          "result": "id: CE21E480-9BC6-4727-A36A-CDE54180AAF2",
+          "subLogs": [],
+          "duration": 1199
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Pune, Maharashtra\"]",
+            "{\"id\":\"CE21E480-9BC6-4727-A36A-CDE54180AAF2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 820
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"ONWARD\"], using=xpath}"
+          ],
+          "result": "id: 8D8F5B1D-959E-40F7-8F7A-B5EE53E44CF5",
+          "subLogs": [],
+          "duration": 1152
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"ONWARD\"]",
+            "{\"id\":\"8D8F5B1D-959E-40F7-8F7A-B5EE53E44CF5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 708
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label='31'], using=xpath}"
+          ],
+          "result": "[id: 2EE42B4F-5103-4111-975E-F792CD1E4DDC, id: B8C81235-C9A3-47C2-8979-9FF38CD71E55, id: 2DDCEFA7-7886-415A-8005-22388848939F, id: 8AD7E69C-47A5-4D94-9261-26A76893C99A, id: 2D4A86BF-F907-491C-A15B-F32EA9CF04D8, id: 902DC1AD-8F05-4F51-8393-C318B4AA7075, id: 0EC50420-0079-4CE2-9AD2-5337ABB8877F]",
+          "subLogs": [],
+          "duration": 47518
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label='31'], using=xpath}"
+          ],
+          "result": "id: D6069423-F86B-4B30-B78F-45730CAE5437",
+          "subLogs": [],
+          "duration": 10069
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label='31']",
+            "{\"id\":\"D6069423-F86B-4B30-B78F-45730CAE5437\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3418
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 2816
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 4423
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 5420
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3718
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 4125
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3425
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Get Set Go\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3522
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "buslist",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@class='XCUIElementTypeCell'], using=xpath}"
+          ],
+          "result": "[id: F5ABC79C-94D5-4AE2-A8BF-27E23AC42E46, id: 77B835D5-6011-4B98-A73F-7294E35CB8BB, id: CD1C976B-1468-4A14-ADF2-F0F6A89A4001, id: ECE52F39-3F3E-4B8A-97F1-D2933E94FFC9, id: BACF817D-153F-4232-85C9-82B2E1F486D3, id: 0FA325A2-EB4C-4A3B-8787-E8E33A07F9AF, id: A44D014D-49CC-48EB-8D3D-1AA518A2DB28, id: 564206B6-5DC8-4B9D-AD1F-6767B60AA051, id: 64117759-B38A-43A3-A6C5-AA70E585A2C1, id: 4F6825B8-4006-4C8D-86F6-CB7747BE9B22, id: 44F4550C-0F5B-4C87-A7A3-4CFC3CFD4179, id: CE862980-D66C-4A23-A9DE-C75089630269, id: 7D71B68A-D59F-4F78-80B4-308A35861CA5, id: 94D2A1EB-15DE-433B-8F5B-E582B0823C7E, id: 03952D8F-9B22-47DE-8673-06BE7FB7BB66, id: 9F268BC3-EB01-4F8D-9A34-48034BD1ECB7, id: EDFA190F-2055-4428-A890-3E1802646931, id: 79BE43E5-4A72-4CF1-8565-650B0D4E64F9, id: 55267589-42B4-4D3B-8A8C-C58957F0DA8E, id: 99804A94-4AF8-42CD-8EC6-A012B85574F6, id: 0DC9CF93-B2C6-4F54-BEEB-8641994EFC77, id: 51A9ED4F-A43A-41EC-B1C0-364D49B77634, id: 9D8E6DD1-F293-4BA6-B740-DB3B1397AF14, id: AC749504-FA39-41BD-AA94-99D48D0EE356, id: A33AF972-9476-4DE8-9DA2-DFD3E131880E, id: 93A5BDCF-85B3-403C-8BFF-2C31B3992B84, id: BBA8DD09-2657-4533-9C75-C4B46A237813, id: 9A9BE7AB-9260-4E6B-970D-9FF8669738AB, id: E6F1579B-FC85-494C-83B5-EF715D1EF514, id: CA8AA3F8-DD3C-4875-BACC-C4090F3B142A, id: 6697BD99-46FB-492E-910F-9E996311E239, id: 459C7566-3AF7-4931-ABD5-C6608124C6C9, id: 528D0A43-EF49-4874-B125-1492B39B856B, id: 0E061EC2-A7A8-4455-B57C-7A7DDF760877, id: 51206CF5-4BAD-4FE4-8B50-8D7A242054B6, id: D4306D3A-F815-4505-A02B-1908FE0AE331, id: 123AD387-E2E8-4FA3-AF41-104D1C1592EF, id: 71CEB59A-9953-430E-B483-00210008AB61, id: 4634BF9F-D3D0-48C9-A6BB-020249FB1A2A, id: 7D0E2617-1D26-438D-ACF5-8028736A7255, id: 656645CD-7412-4C6A-89F0-28847A40A30A, id: FDB64126-FFD0-4B9D-8680-EEB782B26169, id: 9E7F6C22-64FD-4A50-B3C6-AA625CE7D621, id: DBAFF085-2405-4830-90D1-0525F34BD768, id: 90AB1605-4FBC-449F-8E26-7B49664BBBD4, id: B3D84C35-0913-4EB0-B2C0-82783FD47D8B, id: 6F90ED96-A340-40A8-A9E3-5C8556621F0C, id: 4B11AFCB-A6A3-4C75-A647-61CC7DDA4C17, id: 6767D0F2-16ED-4647-A108-47256C5C3616, id: 5219CA20-5206-4331-BE5D-95159DC7D613, id: 072DA82C-C58D-4C5C-BDE2-9B52E9EE10A2, id: 180421BB-64BD-4272-92D7-D225BB90E64F, id: DEA75AF4-6B0E-45B4-94C6-268EC67EBB82, id: 3223E255-E571-4B14-8593-E6CE9C0B8450, id: 8648C573-D775-4DC4-9417-7F2984930FAA]",
+          "subLogs": [],
+          "duration": 268196
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@class='XCUIElementTypeCell'], using=xpath}"
+          ],
+          "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, simpleIsVisibleCheck=true, deviceName=C996B233C51A72F3E80DB75A7CB580F200F398E8, appPath=PUBLIC:perfectoTraining/Goibibo 6.6.7.ipa, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, driverClass=io.appium.java_client.ios.iosDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=iOS, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.goibibo.Goibibo, serverConnector=, serverHost=1.1.53.63:11601, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, webdriver.remote.sessionid=e528b07d-fc2f-4769-8c16-d8b863e8c4c2, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, user=, cssSelectorsEnabled=true}]\nSession ID: e528b07d-fc2f-4769-8c16-d8b863e8c4c2",
+          "subLogs": [],
+          "duration": 5
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User launch the application",
+      "type": "TestStepPass",
+      "duration": 60181,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User selected BUS to book ticket",
+      "type": "TestStepPass",
+      "duration": 11511,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User started booking process",
+      "type": "TestStepPass",
+      "duration": 125321,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User verifying the bus list",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 10064598,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;55&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, simpleIsVisibleCheck=true, deviceName=C996B233C51A72F3E80DB75A7CB580F200F398E8, appPath=PUBLIC:perfectoTraining/Goibibo 6.6.7.ipa, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, driverClass=io.appium.java_client.ios.iosDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=iOS, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.goibibo.Goibibo, serverConnector=, serverHost=1.1.53.63:11601, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, webdriver.remote.sessionid=e528b07d-fc2f-4769-8c16-d8b863e8c4c2, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, user=, cssSelectorsEnabled=true}]\nSession ID: e528b07d-fc2f-4769-8c16-d8b863e8c4c2",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, simpleIsVisibleCheck=true, deviceName=C996B233C51A72F3E80DB75A7CB580F200F398E8, appPath=PUBLIC:perfectoTraining/Goibibo 6.6.7.ipa, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, driverClass=io.appium.java_client.ios.iosDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=iOS, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.goibibo.Goibibo, serverConnector=, serverHost=1.1.53.63:11601, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, webdriver.remote.sessionid=e528b07d-fc2f-4769-8c16-d8b863e8c4c2, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-03_12_59_16_7370&_timestamp[0]=1525352356496, user=, cssSelectorsEnabled=true}]\nSession ID: e528b07d-fc2f-4769-8c16-d8b863e8c4c2\r\n\tat .And User verifying the bus list(scenarios/BusBooking_Goibibo.bdd:10)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:97)\r\n\tat com.sun.proxy.$Proxy28.iterator(Unknown Source)\r\n\tat com.perfecto.pages.Bussearchlist.Verifysearchresult(Bussearchlist.java:36)\r\n\tat com.perfecto.steps.Busbookingsteps.buslist(Busbookingsteps.java:42)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: java.net.UnknownHostException: partners.perfectomobile.com\r\n\tat java.net.InetAddress.getAllByName0(InetAddress.java:1280)\r\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1192)\r\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1126)\r\n\tat org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)\r\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\r\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\r\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\r\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\r\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\r\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\r\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:97)\r\n\tat com.sun.proxy.$Proxy28.iterator(Unknown Source)\r\n\tat com.perfecto.pages.Bussearchlist.Verifysearchresult(Bussearchlist.java:36)\r\n\tat com.perfecto.steps.Busbookingsteps.buslist(Busbookingsteps.java:42)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

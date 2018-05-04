@@ -1,0 +1,524 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchgoibiboapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "busselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "[id: F3BD1C9F-AA9A-4929-978A-F725D2738D1F]",
+          "subLogs": [],
+          "duration": 2724
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "id: 6E52FF5E-DF0F-43A3-906E-B14F92B8EF4B",
+          "subLogs": [],
+          "duration": 2019
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Bus\"]",
+            "{\"id\":\"6E52FF5E-DF0F-43A3-906E-B14F92B8EF4B\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 524
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "id: 3D2EEEBE-7856-450A-86DD-F44975EAEECF",
+          "subLogs": [],
+          "duration": 1529
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Bus\"]",
+            "{\"id\":\"3D2EEEBE-7856-450A-86DD-F44975EAEECF\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 899
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "busticketbooking",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name=\"fromButton\"], using=xpath}"
+          ],
+          "result": "[id: 0E4BE62A-74A9-4916-BDEA-E6723ABE6774]",
+          "subLogs": [],
+          "duration": 853
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"fromButton\"], using=xpath}"
+          ],
+          "result": "id: 4D8BB43C-5392-4B83-A93C-CDD096CB62A1",
+          "subLogs": [],
+          "duration": 851
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@name=\"fromButton\"]",
+            "{\"id\":\"4D8BB43C-5392-4B83-A93C-CDD096CB62A1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 411
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"fromButton\"], using=xpath}"
+          ],
+          "result": "id: 56291891-B4C9-427E-B4C4-FE326EC5175D",
+          "subLogs": [],
+          "duration": 915
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@name=\"fromButton\"]",
+            "{\"id\":\"56291891-B4C9-427E-B4C4-FE326EC5175D\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 716
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "[id: 1764BD4B-DB06-4F8F-946F-7E9231E0AD18]",
+          "subLogs": [],
+          "duration": 1320
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: F56C6856-D15F-47E7-85D8-8F06F93E79C0",
+          "subLogs": [],
+          "duration": 1244
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"F56C6856-D15F-47E7-85D8-8F06F93E79C0\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 426
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: D7FFC1EC-2D75-4B89-9E68-E3884F671789",
+          "subLogs": [],
+          "duration": 1141
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"D7FFC1EC-2D75-4B89-9E68-E3884F671789\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 821
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 9203A87B-A511-40B3-9D51-5CFFC0EBFD0A",
+          "subLogs": [],
+          "duration": 1428
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"9203A87B-A511-40B3-9D51-5CFFC0EBFD0A\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 828
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Hyderabad, Telangana\"], using=xpath}"
+          ],
+          "result": "[id: B816BEAD-4BE1-4175-9FFA-799E808962C1]",
+          "subLogs": [],
+          "duration": 1038
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Hyderabad, Telangana\"], using=xpath}"
+          ],
+          "result": "id: 3B7BA69F-6DD8-42AC-B139-CC9BE0006C5F",
+          "subLogs": [],
+          "duration": 1022
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Hyderabad, Telangana\"]",
+            "{\"id\":\"3B7BA69F-6DD8-42AC-B139-CC9BE0006C5F\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 415
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Hyderabad, Telangana\"], using=xpath}"
+          ],
+          "result": "id: 26A18B73-C7A7-4AA9-B3AE-DED386E4F46F",
+          "subLogs": [],
+          "duration": 1019
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Hyderabad, Telangana\"]",
+            "{\"id\":\"26A18B73-C7A7-4AA9-B3AE-DED386E4F46F\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 834
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name=\"toButton\"], using=xpath}"
+          ],
+          "result": "[id: 168BB131-F98B-47D3-8412-F1959CC3E299]",
+          "subLogs": [],
+          "duration": 1113
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"toButton\"], using=xpath}"
+          ],
+          "result": "id: F3BB60F2-6F45-4D20-A6D8-91458E5D5118",
+          "subLogs": [],
+          "duration": 920
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@name=\"toButton\"]",
+            "{\"id\":\"F3BB60F2-6F45-4D20-A6D8-91458E5D5118\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"toButton\"], using=xpath}"
+          ],
+          "result": "id: B8328084-6ADC-4FA2-8F63-74ED9BE8BA47",
+          "subLogs": [],
+          "duration": 931
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@name=\"toButton\"]",
+            "{\"id\":\"B8328084-6ADC-4FA2-8F63-74ED9BE8BA47\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 706
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "[id: AA29F257-D3BF-4DE5-B9E4-F177A71C8C25]",
+          "subLogs": [],
+          "duration": 1330
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 761F3BE4-483C-4C45-AEF6-407E8D993482",
+          "subLogs": [],
+          "duration": 1051
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"761F3BE4-483C-4C45-AEF6-407E8D993482\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 399
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 300F83CF-E7F7-4B40-BCDF-D923A81C9A90",
+          "subLogs": [],
+          "duration": 1140
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"300F83CF-E7F7-4B40-BCDF-D923A81C9A90\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 836
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Search by location or City\"], using=xpath}"
+          ],
+          "result": "id: 9A0D9BDD-56A2-486D-B576-1EE53FC44896",
+          "subLogs": [],
+          "duration": 1334
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@label=\"Search by location or City\"]",
+            "{\"id\":\"9A0D9BDD-56A2-486D-B576-1EE53FC44896\",\"value\":[\"Pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 728
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Pune, Maharashtra\"], using=xpath}"
+          ],
+          "result": "[id: BF8599B1-3DC1-4803-8A89-6D7C3FFE5019]",
+          "subLogs": [],
+          "duration": 1024
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Pune, Maharashtra\"], using=xpath}"
+          ],
+          "result": "id: 56256AEC-F71D-43F3-98FF-04285D368D49",
+          "subLogs": [],
+          "duration": 1022
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Pune, Maharashtra\"]",
+            "{\"id\":\"56256AEC-F71D-43F3-98FF-04285D368D49\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 816
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"ONWARD\"], using=xpath}"
+          ],
+          "result": "id: BAA34620-7691-43F6-A05B-0B776213444A",
+          "subLogs": [],
+          "duration": 1117
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"ONWARD\"]",
+            "{\"id\":\"BAA34620-7691-43F6-A05B-0B776213444A\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 729
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label='31'], using=xpath}"
+          ],
+          "result": "[id: 0A6F2A5B-92F8-435D-B5CE-48FA6010C983, id: 2C013767-07E5-4D9E-82EC-325C2D2FC5CC, id: 0795FA79-48E9-4292-8072-A9BD01DBFE13, id: 1F590199-730B-4D9B-8690-6C6A7752B161, id: 5579E77C-F7D4-4992-BEAC-A5F8C460C27E, id: AA991A95-CDD2-449A-A0C5-C585D9766A3B, id: 94512A02-DC3C-412B-A175-A975A8B5F643]",
+          "subLogs": [],
+          "duration": 46905
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label='31'], using=xpath}"
+          ],
+          "result": "id: CD952C8B-B4F3-4686-B8D7-11E184F85F45",
+          "subLogs": [],
+          "duration": 10082
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label='31']",
+            "{\"id\":\"CD952C8B-B4F3-4686-B8D7-11E184F85F45\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3336
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 2626
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 528
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 6862
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3768
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 4346
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3753
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3673
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User launch the application",
+      "type": "TestStepPass",
+      "duration": 58636,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User selected BUS to book ticket",
+      "type": "TestStepPass",
+      "duration": 11720,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User started booking process",
+      "type": "TestStepFail",
+      "screenshot": "test-results/03_May_2018_04_57_PM/img/BusBooking_185in0fxtm5ip28397.png",
+      "duration": 122812,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait time out for By.xpath: //*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'] to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for By.xpath: //*[@name='bussearchbtn.click' or @id='bussearchbtn.click' or @value='bussearchbtn.click'] to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown\r\n\tat .And User started booking process(scenarios/BusBooking_Goibibo.bdd:9)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)\r\n\tat com.perfecto.pages.BusbookingTestPage.bussearchbtn(BusbookingTestPage.java:112)\r\n\tat com.perfecto.steps.Busbookingsteps.busticketbooking(Busbookingsteps.java:37)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

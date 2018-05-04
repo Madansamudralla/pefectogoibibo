@@ -1,0 +1,5 @@
+deptarturetime.click = {\"locator\":\"xpath=//*[contains(@resource-id, 'bus_dept_time')]\",\"desc\":\"departure bus time list in search page\"}
+arrivaltime.click = {\"locator\":\"xpath=//*[contains(@resource-id, 'bus_arr_time')]\",\"desc\":\"Arrival bus time in search page list\"}
+busprice.click = {\"locator\":\"xpath=//*[contains(@resource-id, 'bus_price')]\",\"desc\":\"Bus price in search page\"}
+bustravel.name = {\"locator\":\"xpath=//*[contains(@resource-id, 'bus_travels')]\",\"desc\":\"Bus travel agent name\"}
+compo.busresultpage = {\"locator\":\"xpath=//*[contains(@resource-id, 'card_layout')]\",\"desc\":\"Component list in bus search page\"}

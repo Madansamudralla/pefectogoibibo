@@ -1,0 +1,83 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.goibibo",
+      "noReset": true,
+      "appPath": "PUBLIC:perfectoTraining/Goibibo.apk",
+      "deviceName": "520326A2B4809359",
+      "password": "Demo123",
+      "autoLaunch": true,
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "AutoAcceptAlerts": true,
+      "platformName": "android",
+      "user": "is_user1@infostretch.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Goibibo"
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.goibibo",
+      "reportPdfUrl": "https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474&_timestamp[0]=1525409389463",
+      "noReset": "true",
+      "appPath": "PUBLIC:perfectoTraining/Goibibo.apk",
+      "deviceName": "520326A2B4809359",
+      "platform": "ANY",
+      "password": "",
+      "deviceSessionId": "is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "host": "partners.perfectomobile.com",
+      "singleTestReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474&_timestamp[0]=1525409389463",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "AutoAcceptAlerts": "true",
+      "platformName": "android",
+      "applicationName": "Goibibo",
+      "rotatable": "true",
+      "testGridReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474&_timestamp[0]=1525409389463",
+      "entityType": "appium_driver",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474",
+      "webdriver.remote.sessionid": "ccf5eda2-cc2e-46d7-89ae-0469c6bf0238",
+      "autoLaunch": "true",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "reportKey": "is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474",
+      "windTunnelReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_04_49_49_8474&_timestamp[0]=1525409389463",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "env.resources": "resources/android",
+      "resources": "resources/android"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_161",
+      "os.arch": "amd64",
+      "host": "ICPL12782",
+      "os.name": "Windows 10",
+      "user.name": "Madan.Samudralla",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1525409493937,
+  "endTime": 1525409514949
+}

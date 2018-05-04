@@ -1,6 +1,6 @@
 /**
  * 
- */
+ *//*
 package com.perfecto.steps;
 
 import java.util.HashMap;
@@ -16,9 +16,9 @@ import com.qmetry.qaf.automation.ui.api.PageLocator;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 
-/**
+*//**
  * @author Madan.Samudralla
- */
+ *//*
 public class Busbooking extends WebDriverBaseTestPage<WebDriverTestPage>{
 	@FindBy(locator = "Bustext.click")
 	private QAFWebElement BustextClick;
@@ -55,7 +55,7 @@ public class Busbooking extends WebDriverBaseTestPage<WebDriverTestPage>{
 	@FindBy(locator="buslistok.click")
 	private QAFWebElement buslistokClick;
 	
-	@QAFTestStep(description = "i opened the application")
+	@QAFTestStep(description = "User opened the application")
 	public void iOpenedTheApplication() {
 		new WebDriverTestBase().getDriver();
 	}
@@ -184,3 +184,4 @@ public class Busbooking extends WebDriverBaseTestPage<WebDriverTestPage>{
 		buslistokClick.click();
 	}
 }
+*/

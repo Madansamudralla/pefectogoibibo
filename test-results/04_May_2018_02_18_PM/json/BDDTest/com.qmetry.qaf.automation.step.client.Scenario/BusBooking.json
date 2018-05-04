@@ -1,0 +1,731 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchgoibiboapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "busselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1739
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 2368
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 3276
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 497
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Bus'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 517
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Bus']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3015
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "busticketbooking",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "[id: 3]",
+          "subLogs": [],
+          "duration": 526
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 420
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_origin')]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 413
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_origin')], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_origin')]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 524
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 6]",
+          "subLogs": [],
+          "duration": 1599
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 419
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 503
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 415
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 550
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 1193
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"9\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2887
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "[id: 10]",
+          "subLogs": [],
+          "duration": 678
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 415
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Hyderabad, Telangana']",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 409
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Hyderabad, Telangana'], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 316
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Hyderabad, Telangana']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 573
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "[id: 13]",
+          "subLogs": [],
+          "duration": 1562
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 558
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_dest')]",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 512
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'bus_dest')], using=xpath}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 420
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'bus_dest')]",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 574
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "[id: 16]",
+          "subLogs": [],
+          "duration": 1574
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 430
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 522
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 409
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"18\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 552
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'search_edit')], using=xpath}"
+          ],
+          "result": "id: 19",
+          "subLogs": [],
+          "duration": 1098
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'search_edit')]",
+            "{\"id\":\"19\",\"value\":[\"Pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2262
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Pune, Maharashtra'], using=xpath}"
+          ],
+          "result": "[id: 20]",
+          "subLogs": [],
+          "duration": 759
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Pune, Maharashtra'], using=xpath}"
+          ],
+          "result": "id: 21",
+          "subLogs": [],
+          "duration": 408
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='Pune, Maharashtra']",
+            "{\"id\":\"21\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 549
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(@resource-id, 'textBusOnwDay_cur')], using=xpath}"
+          ],
+          "result": "id: 22",
+          "subLogs": [],
+          "duration": 1584
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(@resource-id, 'textBusOnwDay_cur')]",
+            "{\"id\":\"22\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 727
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='31'], using=xpath}"
+          ],
+          "result": "[id: 23, id: 24]",
+          "subLogs": [],
+          "duration": 1460
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='31'], using=xpath}"
+          ],
+          "result": "id: 25",
+          "subLogs": [],
+          "duration": 545
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text='31']",
+            "{\"id\":\"25\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 670
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "[id: 26]",
+          "subLogs": [],
+          "duration": 982
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "id: 27",
+          "subLogs": [],
+          "duration": 408
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@text='Get Set Go']",
+            "{\"id\":\"27\"}"
+          ],
+          "result": "Failed to execute command application.element info: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 230 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5",
+          "subLogs": [],
+          "duration": 242
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 238 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 238
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 254 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 254
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 254 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 260
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 252 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 255
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 242 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 244
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 246 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 247
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 232 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 235
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 228 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 228
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 242 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 243
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 229 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 229 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 229 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 229
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 233 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 234
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 232 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 233
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 237 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 239
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 227 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 228
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 228 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 228
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 227 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 227
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 237 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 239
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 224 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 238 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 239
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 237 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 238
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@text='Get Set Go'], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 236 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[@text='Get Set Go']}",
+          "subLogs": [],
+          "duration": 237
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "buslist",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[contains(@resource-id, 'card_layout')], using=xpath}"
+          ],
+          "result": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 232 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[contains(@resource-id, 'card_layout')]}",
+          "subLogs": [],
+          "duration": 233
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User launch the application",
+      "type": "TestStepPass",
+      "duration": 17156,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User selected BUS to book ticket",
+      "type": "TestStepPass",
+      "duration": 16450,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User started booking process",
+      "type": "TestStepPass",
+      "duration": 59669,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User verifying the bus list",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 261,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 232 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[contains(@resource-id, 'card_layout')]}",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\nCommand duration or timeout: 232 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.goibibo, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, noReset=true, appPath=PUBLIC:perfectoTraining/Goibibo.apk, deviceName=520326A2B4809359, platform=ANY, password=, deviceSessionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, takesScreenshot=true, javascriptEnabled=true, AutoAcceptAlerts=true, platformName=android, applicationName=Goibibo, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, webdriver.remote.sessionid=5fb14853-185f-4080-b220-ce08b240cef5, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_18-05-04_08_48_51_8914&_timestamp[0]=1525423731997, user=, cssSelectorsEnabled=true}]\nSession ID: 5fb14853-185f-4080-b220-ce08b240cef5\n*** Element info: {Using=xpath, value=//*[contains(@resource-id, 'card_layout')]}\r\n\tat .And User verifying the bus list(scenarios/BusBooking_Goibibo.bdd:10)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:97)\r\n\tat com.sun.proxy.$Proxy28.size(Unknown Source)\r\n\tat com.perfecto.pages.Bussearchlist.Verifysearchresult(Bussearchlist.java:35)\r\n\tat com.perfecto.steps.Busbookingsteps.buslist(Busbookingsteps.java:42)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: java.lang.RuntimeException: Failed to execute command application.element find: Device 520326A2B4809359 is not allocated to is_user1@infostretch.com\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:530)\r\n\tat com.perfectomobile.selenium.MobileApplication.processResponse(MobileApplication.java:46)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElementsImpl(MobileApplication.java:262)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElementsImpl(MobileApplication.java:243)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElementsByXPath(MobileApplication.java:199)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:356)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElements(MobileApplication.java:141)\r\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.findElements(PerfectoMobileDriver.java:810)\r\n\tat sun.reflect.GeneratedMethodAccessor2247.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)\r\n\tat com.sun.proxy.$Proxy285.findElements(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)\r\n\tat org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)\r\n\tat org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:34)\r\n\tat org.openqa.selenium.remote.server.handler.WebDriverHandler.handle(WebDriverHandler.java:41)\r\n\tat org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:112)\r\n\tat org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:192)\r\n\tat org.openqa.selenium.remote.server.MobileDriverServlet.lambda$handleRequest$0(MobileDriverServlet.java:465)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+}

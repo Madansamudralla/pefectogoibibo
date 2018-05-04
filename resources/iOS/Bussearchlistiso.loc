@@ -1,0 +1,5 @@
+deptarturetime.click = {\"locator\":\"xpath=//*[@name='Bus_SRP_Start_Time']\",\"desc\":\"departure bus time list in search page\"}
+arrivaltime.click = {\"locator\":\"xpath=//*[@name='Bus_SRP_End_Time']\",\"desc\":\"Arrival bus time in search page list\"}
+busprice.click = {\"locator\":\"xpath=//*[@name='Bus_SRP_Price']\",\"desc\":\"Bus price in search page\"}
+bustravel.name = {\"locator\":\"xpath=//*[@name='Bus_SRP_Operator_Name']\",\"desc\":\"Bus travel agent name\"}
+compo.busresultpage = {\"locator\":\"xpath=//*[@class='XCUIElementTypeCell']\",\"desc\":\"Component list in bus search page\"}

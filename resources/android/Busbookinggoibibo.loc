@@ -10,4 +10,3 @@ destinationselecting.click = {\"locator\":\"xpath=//*[@text='Pune, Maharashtra']
 calendar.click = {\"locator\":\"xpath=//*[contains(@resource-id, 'textBusOnwDay_cur')]\",\"desc\":\"User clicking on calendar button\"}
 calendardatepick.click = {\"locator\":\"xpath=//*[@text='31']\",\"desc\":\"User selecting the date pick\"}
 bussearchbtn.click = {\"locator\":\"xpath=//*[@text='Get Set Go']\",\"desc\":\"User click on search bus btn\"}
-buslistok.click = {\"locator\":\"xpath=//*[@text='OK']\",\"desc\":\"User click on OK button\"}

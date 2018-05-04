@@ -1,0 +1,16 @@
+17:24:17 scenario.file.loc[Ljava.lang.String;@530612ba
+17:24:17 loading BDD file: scenarios/BusBooking_Goibibo.bdd
+17:24:17 total test found: 1
+17:24:17 
+
+Executing scenario: BusBooking - Busticketbooking
+17:24:17 pkg: com.qmetry.qaf.automation.step
+17:24:17 pkg: com.perfecto.steps
+17:24:17 Found duplicate step to load [] with [lower] prority then []
+17:24:18 Invoking Teststep: Given User launch the application
+17:25:15 Completed Teststep: Given User launch the application
+17:25:15 Invoking Teststep: When User selected BUS to book ticket
+17:25:28 Completed Teststep: When User selected BUS to book ticket
+17:25:28 Invoking Teststep: And User started booking process
+17:27:34 Completed Teststep: And User started booking process
+17:27:34 Competed scenario: BusBooking with status SUCESS

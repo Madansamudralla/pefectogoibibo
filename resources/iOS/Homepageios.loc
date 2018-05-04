@@ -1,0 +1,1 @@
+Bustext.click = {\"locator\":\"xpath=//*[@label=\\\"Bus\\\"]\",\"desc\":\"User click on Bus button\"}

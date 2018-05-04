@@ -1,0 +1,318 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchgoibiboapp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "busselection",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "[id: 8C00EF96-89B4-499A-8185-5C7430F5A7FA]",
+          "subLogs": [],
+          "duration": 2842
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "id: 65235800-21F7-4635-A448-59D5EB0286BF",
+          "subLogs": [],
+          "duration": 1826
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@label=\"Bus\"]",
+            "{\"id\":\"65235800-21F7-4635-A448-59D5EB0286BF\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 610
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Bus\"], using=xpath}"
+          ],
+          "result": "id: 22BE222B-3AAD-4383-A3B1-AB096A1C5E29",
+          "subLogs": [],
+          "duration": 2448
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Bus\"]",
+            "{\"id\":\"22BE222B-3AAD-4383-A3B1-AB096A1C5E29\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 917
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "busticketbooking",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 505
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 538
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 610
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 559
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 519
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 533
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 686
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 451
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 520
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 530
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 524
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 529
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 536
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 508
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 537
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 638
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 517
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 514
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 430
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 418
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 620
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And User verifying the bus list",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User launch the application",
+      "type": "TestStepPass",
+      "duration": 55325,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User selected BUS to book ticket",
+      "type": "TestStepPass",
+      "duration": 12674,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User started booking process",
+      "type": "TestStepFail",
+      "screenshot": "test-results/03_May_2018_03_37_PM/img/BusBooking_1uho6vwxppfi81510.png",
+      "duration": 31262,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait time out for By.xpath: //*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'] to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And User verifying the bus list",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for By.xpath: //*[@name='origincity.click' or @id='origincity.click' or @value='origincity.click'] to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12782', ip: '192.168.81.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown\r\n\tat .And User started booking process(scenarios/BusBooking_Goibibo.bdd:9)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)\r\n\tat com.perfecto.pages.BusbookingTestPage.origincityclicks(BusbookingTestPage.java:72)\r\n\tat com.perfecto.steps.Busbookingsteps.busticketbooking(Busbookingsteps.java:29)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

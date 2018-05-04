@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Busticketbooking",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "BusBooking",
+        "referece": "scenarios/BusBooking_Goibibo.bdd",
+        "sign": "scenarios.BusBooking_Goibibo.bdd.BusBooking()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1525426770265,
+      "duration": 70574,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

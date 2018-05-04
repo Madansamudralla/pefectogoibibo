@@ -1,0 +1,9 @@
+origincity.click = {\"locator\":\"xpath=//*[@name=\\\"fromButton\\\"]\",\"desc\":\"User click on origin city\"}
+origincity.send = {\"locator\":\"xpath=//*[@label=\\\"Search by location or City\\\"]\",\"desc\":\"User enters the origin city\"}
+originselect.click = {\"locator\":\"xpath=//*[@label=\\\"Hyderabad, Telangana\\\"]\",\"desc\":\"user selecting the origin\"}
+destination.click = {\"locator\":\"xpath=//*[@name=\\\"toButton\\\"]\",\"desc\":\"User click on destination city\"}
+destinationcity.send = {\"locator\":\"xpath=//*[@label=\\\"Search by location or City\\\"]\",\"desc\":\"User entering destination city\"}
+destinationselecting.click = {\"locator\":\"xpath=//*[@label=\\\"Pune, Maharashtra\\\"]\",\"desc\":\"User selecting the destination\"}
+calendar.click = {\"locator\":\"xpath=//*[@label=\\\"ONWARD\\\"]\",\"desc\":\"User clicking on calendar button\"}
+calendardatepick.click = {\"locator\":\"xpath=//*[@label='31']\",\"desc\":\"User selecting the date pick\"}
+bussearchbtn.click = {\"locator\":\"xpath=//*[@label=\\\"Get Set Go\\\"]\",\"desc\":\"User click on OK button\"}
