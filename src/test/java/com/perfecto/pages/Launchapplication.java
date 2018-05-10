@@ -17,11 +17,12 @@ public class Launchapplication {
 		params1.put("name", "Goibibo");
 		Object result1 = new WebDriverTestBase().getDriver().executeScript("mobile:application:close", params1);
 		System.out.println("end close app");
+		System.out.println(result1);
 		Map<String, Object> params2 = new HashMap<>();
 		params2.put("name", "Goibibo");
 		Object result2 = new WebDriverTestBase().getDriver().executeScript("mobile:application:open", params2);
 		System.out.println("end close app");
+		System.out.println(result2);
 		//CommonStep.click("Bustext.click");
 	}
-
 }

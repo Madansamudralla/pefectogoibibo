@@ -2,6 +2,51 @@
   "reports": [
     {
       "name": "QAS Demo",
+      "dir": "test-results/09_May_2018_06_45_AM/json",
+      "startTime": 1525848341197
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_08_41_AM/json",
+      "startTime": 1525682499376
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_08_37_AM/json",
+      "startTime": 1525682260256
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_08_35_AM/json",
+      "startTime": 1525682139461
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_06_46_AM/json",
+      "startTime": 1525675611617
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_06_39_AM/json",
+      "startTime": 1525675154038
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_06_36_AM/json",
+      "startTime": 1525674978156
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_05_41_AM/json",
+      "startTime": 1525671697746
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/07_May_2018_05_31_AM/json",
+      "startTime": 1525671123828
+    },
+    {
+      "name": "QAS Demo",
       "dir": "test-results/04_May_2018_09_39_AM/json",
       "startTime": 1525426770157
     },

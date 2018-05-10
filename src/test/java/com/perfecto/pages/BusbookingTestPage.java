@@ -104,10 +104,12 @@ public class BusbookingTestPage extends WebDriverBaseTestPage<WebDriverTestPage>
 	public void calendarbtnclick() {
 		calendarClick.click();
 		}
+	
 	public void calendarpickdate() {
 		calendardatepickClick.waitForPresent();
 		calendardatepickClick.click();
 	}
+	
 	public void bussearchbtn() {
 		try{
 		bussearchbtnClick.waitForVisible();

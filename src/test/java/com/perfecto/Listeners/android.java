@@ -33,8 +33,7 @@ public class android  implements com.qmetry.qaf.automation.step.QAFTestStepListe
 	@Override
 	public void beforeCommand(QAFExtendedWebDriver driver,
 			CommandTracker commandHandler) {
-		Reporter.log("Command will execute");
-		
+		Reporter.log("Command will execute");		
 	}
 
 	@Override
